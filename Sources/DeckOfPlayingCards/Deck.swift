@@ -31,6 +31,7 @@ public struct Deck: Equatable {
     /// Creates a deck of playing cards.
     public init(_ cards: [PlayingCard]) {
         self.cards = cards
+	print("Deck.init 3.0.1")
     }
 
     /// Randomly shuffles a deck of playing cards.
